@@ -147,7 +147,8 @@
       });
 
       marker = new google.maps.Marker({
-        map: map
+        map: map,
+        draggable: true
       });
 
       service = new google.maps.places.PlacesService(map);
